@@ -1,0 +1,38 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ConvolutionTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "IdentityFilter",
+          "file": "\/home\/sdm\/Cuda\/webcam-filter-pipeline\/tests\/unit_tests\/test_convolution.cpp",
+          "line": 6
+        },
+        {
+          "name": "BlurFilter",
+          "file": "\/home\/sdm\/Cuda\/webcam-filter-pipeline\/tests\/unit_tests\/test_convolution.cpp",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "name": "FilterUtilsTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "StringToFilterType",
+          "file": "\/home\/sdm\/Cuda\/webcam-filter-pipeline\/tests\/unit_tests\/test_utils.cpp",
+          "line": 4
+        },
+        {
+          "name": "CreateFilterKernel",
+          "file": "\/home\/sdm\/Cuda\/webcam-filter-pipeline\/tests\/unit_tests\/test_utils.cpp",
+          "line": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/cmake_install.cmake",
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/external/cxxopts/cmake_install.cmake",
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/external/cxxopts/include/cmake_install.cmake",
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/external/plog/cmake_install.cmake",
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/external/gtest/cmake_install.cmake",
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/external/gtest/googlemock/cmake_install.cmake",
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/external/gtest/googletest/cmake_install.cmake",
+		"/home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

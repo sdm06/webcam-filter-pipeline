@@ -1,4 +1,5 @@
 #include "filter_pipeline.h"
+#include <cuda_runtime.h>
 #include "../kernels/pipeline_kernels.h"
 #include "../kernels/kernels.h"
 #include <plog/Log.h>

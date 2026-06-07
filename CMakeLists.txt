@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.27) # Requires 25 or above to have CUDA20 standard flag
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
 
 if(NOT DEFINED CMAKE_C_COMPILER AND NOT DEFINED CMAKE_CXX_COMPILER)
     set(COMPILER_CACHE_FILE "${CMAKE_BINARY_DIR}/compiler_settings.cmake")
@@ -197,6 +198,7 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 # Testing
+enable_testing()
 if(RUN_UNIT_TESTS)
     add_subdirectory(tests/unit_tests)
 endif()

@@ -1,0 +1,5 @@
+if(EXISTS "/home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests/webcam_filter_tests[1]_tests.cmake")
+  include("/home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests/webcam_filter_tests[1]_tests.cmake")
+else()
+  add_test(webcam_filter_tests_NOT_BUILT webcam_filter_tests_NOT_BUILT)
+endif()

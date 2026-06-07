@@ -79,6 +79,13 @@ set PATH=C:\opencv\build\x64\vc16\bin;%PATH%
 ## Hardware requirements
 Requires a CUDA-enabled GPU.
 
+### System Specifications
+The following configuration has been tested and verified:
+- **Operating System:** Arch Linux (Kernel 7.0.11-arch1-1)
+- **GPU:** NVIDIA GeForce RTX 4060 Ti (8GB VRAM)
+- **NVIDIA Driver Version:** 610.43.02
+- **CUDA Version:** CUDA 13.3 (Compiler NVCC V13.3.33)
+
 ## Dependencies
 - OpenCV (>= 4.5.0) — **install separately, see below**
 - CUDA Toolkit (>= 12.0)

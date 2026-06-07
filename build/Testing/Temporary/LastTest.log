@@ -1,0 +1,111 @@
+Start testing: Jun 07 21:18 CEST
+----------------------------------------------------------
+1/4 Testing: ConvolutionTest.IdentityFilter
+1/4 Test: ConvolutionTest.IdentityFilter
+Command: "/home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests/webcam_filter_tests" "--gtest_filter=ConvolutionTest.IdentityFilter" "--gtest_also_run_disabled_tests"
+Directory: /home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests
+"ConvolutionTest.IdentityFilter" start time: Jun 07 21:18 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/sdm/Cuda/webcam-filter-pipeline/external/gtest/googletest/src/gtest_main.cc
+Note: Google Test filter = ConvolutionTest.IdentityFilter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConvolutionTest
+[ RUN      ] ConvolutionTest.IdentityFilter
+[       OK ] ConvolutionTest.IdentityFilter (150 ms)
+[----------] 1 test from ConvolutionTest (150 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (150 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"ConvolutionTest.IdentityFilter" end time: Jun 07 21:18 CEST
+"ConvolutionTest.IdentityFilter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: ConvolutionTest.BlurFilter
+2/4 Test: ConvolutionTest.BlurFilter
+Command: "/home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests/webcam_filter_tests" "--gtest_filter=ConvolutionTest.BlurFilter" "--gtest_also_run_disabled_tests"
+Directory: /home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests
+"ConvolutionTest.BlurFilter" start time: Jun 07 21:18 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/sdm/Cuda/webcam-filter-pipeline/external/gtest/googletest/src/gtest_main.cc
+Note: Google Test filter = ConvolutionTest.BlurFilter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConvolutionTest
+[ RUN      ] ConvolutionTest.BlurFilter
+[       OK ] ConvolutionTest.BlurFilter (102 ms)
+[----------] 1 test from ConvolutionTest (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"ConvolutionTest.BlurFilter" end time: Jun 07 21:18 CEST
+"ConvolutionTest.BlurFilter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: FilterUtilsTest.StringToFilterType
+3/4 Test: FilterUtilsTest.StringToFilterType
+Command: "/home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests/webcam_filter_tests" "--gtest_filter=FilterUtilsTest.StringToFilterType" "--gtest_also_run_disabled_tests"
+Directory: /home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests
+"FilterUtilsTest.StringToFilterType" start time: Jun 07 21:18 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/sdm/Cuda/webcam-filter-pipeline/external/gtest/googletest/src/gtest_main.cc
+Note: Google Test filter = FilterUtilsTest.StringToFilterType
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FilterUtilsTest
+[ RUN      ] FilterUtilsTest.StringToFilterType
+[       OK ] FilterUtilsTest.StringToFilterType (0 ms)
+[----------] 1 test from FilterUtilsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FilterUtilsTest.StringToFilterType" end time: Jun 07 21:18 CEST
+"FilterUtilsTest.StringToFilterType" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: FilterUtilsTest.CreateFilterKernel
+4/4 Test: FilterUtilsTest.CreateFilterKernel
+Command: "/home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests/webcam_filter_tests" "--gtest_filter=FilterUtilsTest.CreateFilterKernel" "--gtest_also_run_disabled_tests"
+Directory: /home/sdm/Cuda/webcam-filter-pipeline/build/tests/unit_tests
+"FilterUtilsTest.CreateFilterKernel" start time: Jun 07 21:18 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/sdm/Cuda/webcam-filter-pipeline/external/gtest/googletest/src/gtest_main.cc
+Note: Google Test filter = FilterUtilsTest.CreateFilterKernel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FilterUtilsTest
+[ RUN      ] FilterUtilsTest.CreateFilterKernel
+[       OK ] FilterUtilsTest.CreateFilterKernel (0 ms)
+[----------] 1 test from FilterUtilsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"FilterUtilsTest.CreateFilterKernel" end time: Jun 07 21:18 CEST
+"FilterUtilsTest.CreateFilterKernel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 07 21:18 CEST

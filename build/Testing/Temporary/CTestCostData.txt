@@ -1,0 +1,5 @@
+ConvolutionTest.IdentityFilter 1 0.26943
+ConvolutionTest.BlurFilter 1 0.200165
+FilterUtilsTest.StringToFilterType 1 0.0419311
+FilterUtilsTest.CreateFilterKernel 1 0.0518641
+---
